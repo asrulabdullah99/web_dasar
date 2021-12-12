@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operator di Javascript</title>
+  </head>
+  <body>
+    <h1>Operator Aritmatika</h1>
+    <script>
+      var a = 10;
+      var b = 5;
+      var c = 0;
+      // penambahan
+      c = a + b;
+      document.write("<h4>", a, " + ", b, " = ", c, "</h4>");
+      c = a % b;
+      document.write("<h4>", a, " % ", b, " = ", c, "</h4>");
+      c = a ** b;
+      document.write("<h4>", a, " ^ ", b, " = ", c, "</h4>");
+    </script>
+    <h2>Operator Penugasan</h2>
+    <script>
+      var d = 12;
+      document.write("Hasil adalah " + d, "<br>");
+      //   d += 5;
+      //   document.write("Hasil adalah " + d, "<br>");
+      // d -= 5;
+      //   document.write("Hasil adalah " + d, "<br>");
+      d **= 2;
+      document.write("Hasil adalah " + d, "<br>");
+    </script>
+    <!-- <h2>Operator Perbandingan</h2>
+    <script>
+      var e = 12;
+      var f = 15;
+      var hasil = e == f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = e > f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = e != f;
+      document.write("Hasil adalah " + hasil, "<br>");
+    </script> -->
+    <!-- <h2>Operator Logika</h2>
+    <script>
+      var e = true;
+      var f = false;
+      var hasil = e && f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = e || f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = !e;
+      document.write("Hasil adalah " + hasil, "<br>");
+    </script> -->
+    <!-- <h2>Operator Bitwise</h2>
+    <script>
+      var e = 4;
+      var f = 3;
+      var hasil = e & f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = e | f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = ~e;
+      document.write("Hasil adalah " + hasil, "<br>");
+    </script> -->
+    <!-- <h2>Operator Bitwise Binary Version</h2>
+    <script>
+      var e = 00000000000000000000000000000101;
+      var f = 00000000000000000000000000000001;
+      var hasil = e & f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = e | f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = e ^ f;
+      document.write("Hasil adalah " + hasil, "<br>");
+      var hasil = ~e;
+      document.write("Hasil adalah " + hasil, "<br>");
+    </script> -->
+    <h2>Operator Ternary</h2>
+    <!-- Statement : <kondisi> ? "benar":"salah" -->
+    <script>
+      var pertanyaan = confirm("Apakah kita sedang belajar web dasar ?");
+      var hasil = pertanyaan ? "Iya benar" : "Sekarang tidak belajar web dasar";
+      document.write(hasil);
+    </script>
+  </body>
+</html>
